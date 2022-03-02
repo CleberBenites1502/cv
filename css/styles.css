@@ -62,7 +62,8 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  /* background */
+  --bs-body-bg: rgb(229, 230, 243);
 }
 
 *,
@@ -11435,4 +11436,7 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.mini{
+  text-transform: lowercase;
 }
